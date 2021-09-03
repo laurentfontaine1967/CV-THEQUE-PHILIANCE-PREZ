@@ -1,0 +1,258 @@
+.main {
+  width: 80% !important;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+#navbar {
+  padding: 15px;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+}
+#mentions,
+#faq,
+#contact {
+  margin-right: 20px;
+  color: white;
+}
+#footer div {
+  padding-right: 20px;
+}
+
+#profilDiv1 {
+  width: 65%;
+}
+
+#profilDiv2 {
+  width: 25%;
+  margin-top: 200px;
+}
+
+#sectionID {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modifProfil {
+  width: 100%;
+  text-align: end;
+}
+
+.MonProfilButton {
+  display: flex;
+  justify-content: flex-end;
+}
+.MonProfilButton Button {
+  margin: 0px 15px 20px 0px;
+}
+
+.titre {
+  text-decoration: underline;
+}
+
+.borderDiv {
+  border: 2px solid lightgray;
+  padding: 10px;
+}
+i {
+  font-size: 30px;
+  padding-right: 20px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.iconsPlus {
+  display: flex;
+}
+.iconsPlus i {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.icon1 {
+  width: 20%;
+}
+.rechercheDivHaut {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.divCvGlobal {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+.divCV {
+  /* background-color: red; */
+  border-radius: 2px;
+  border: 1px solid black;
+  padding: 10px;
+  width: 20%;
+  margin-right: 10px;
+}
+
+/* Ajout Mentions légales */
+
+.mainmention {
+  width: 100%;
+}
+
+.mentionl h6 {
+  font-weight: bold;
+}
+.mentionLegHaut {
+  font-style: italic;
+}
+
+.imageMap {
+  width: 100%;
+}
+
+/*  Fin Ajout Mentions légales */
+
+.container {
+  width: 80%;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: space-between;
+  padding: 30px;
+}
+.form-wrapper div {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+span {
+  color: red;
+  font-weight: bold;
+}
+
+.titrepage {
+  font-size: 30px;
+  text-align: left;
+}
+.divValidation {
+  border: 1px solid grey;
+  width: 50% !important;
+  padding: 10px;
+  margin-top: 15%;
+}
+
+.divForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divHautCVphiliance {
+  height: 20%;
+  background: linear-gradient(to right, #39b54a, #022707);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.divTitre {
+  max-width: 40%;
+  text-align: center;
+}
+
+.divHautCVphiliance h5 {
+  border: 2px solid white;
+  font-size: 1.2em;
+}
+.sectionPresentationCV {
+  display: flex;
+}
+
+.cvPhiliance {
+  width: 50%;
+}
+
+.partieDroite {
+  color: red;
+  height: 31%;
+}
+.profil {
+  width: 50% !important;
+}
+
+.philiance {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 115, 0);
+  max-width: 80%;
+}
+
+.reseauSociauxCnx {
+  border-radius: 10px;
+  width: 25%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sociauxbtn {
+  background-color: red;
+}
+
+.google {
+  padding-top: 15px !important;
+}
+
+.twitter,
+.facebook,
+.github {
+  padding-bottom: 15px !important;
+  padding-top: 15px !important;
+}
+
+.kep-login-facebook {
+  width: 98%;
+  font-size: 12px !important;
+  border-radius: 30px !important;
+}
+
+.git {
+  width: 100%;
+  background-color: violet !important;
+  color: white !important;
+  border-radius: 30px;
+}
+
+.google {
+  width: 98% !important;
+}
+
+.google button {
+  width: 100% !important;
+  border-radius: 20px !important;
+}
+.carousel.slide.carousel {
+  width: 150px !important;
+  height: 50px !important;
+}
+
+.carousel-indicators,
+.carousel-control-prev,
+.carousel-control-next {
+  background: red;
+  display: none !important;
+}
+
+@media screen and (max-width: 500px) {
+  .divHautCVphiliance h5 {
+    border: none;
+  }
+}

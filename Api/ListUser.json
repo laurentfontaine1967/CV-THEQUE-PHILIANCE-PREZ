@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "chaimaetalbi2016@gmail.com",
+      "nom": "Talbi",
+      "prenom": "Chaymae",
+      "telNumber": "0766884256",
+      "password": "asazazazazaz",
+      "confirmPassword": "azazazazazazaazaz",
+      "formErrors": {
+        "email": "",
+        "nom": "",
+        "prenom": "",
+        "telNumber": "",
+        "password": "",
+        "confirmPassword": ""
+      }
+    },
+    {
+      "email": "test@tes.fr",
+      "nom": "teste",
+      "prenom": "teste",
+      "telNumber": "0123456789",
+      "password": "123456",
+      "confirmPassword": "TESTTEST",
+      "role": "admin",
+      "auth": true,
+      "formErrors": {
+        "email": "",
+        "nom": "",
+        "prenom": "",
+        "telNumber": "",
+        "password": "",
+        "confirmPassword": ""
+      },
+      "id": 2
+    },
+    {
+      "id": 15,
+      "token": "d31cdaf2-47da-4c73-a9b8-ac06086a8ccc",
+      "email": "candidat@test.fr",
+      "firstname": "candidat",
+      "lastname": "FONTAINE",
+      "tel": "01021111111111",
+      "role": "user",
+      "password": "123456",
+      "confirm": "123456",
+      "auth": true,
+      "entreprise": "non"
+    },
+    {
+      "id": 16,
+      "token": "4ed95580-c082-4776-a561-45a6115f57a6",
+      "email": "entreprise@test.fr",
+      "firstname": "entreprise",
+      "lastname": "Formation",
+      "tel": "01234567890",
+      "role": "user",
+      "password": "123456",
+      "confirm": "123456",
+      "auth": true,
+      "entreprise": "oui"
+    },
+    {
+      "id": 17,
+      "token": "1ea5318b-9897-449a-a4ef-8c261780219f",
+      "email": "philiance@test.fr",
+      "firstname": "philiance",
+      "lastname": "Laurent ",
+      "tel": "01234567890",
+      "role": "admin",
+      "password": "123456",
+      "confirm": "123456",
+      "entreprise": "oui",
+      "auth": true
+    },
+    {
+      "id": 18,
+      "token": "ef029ca8-32f2-4795-946b-82a647b7c99e",
+      "email": "prez@prez.fr",
+      "firstname": "PPPPPP",
+      "lastname": "PPPPPPP",
+      "tel": "01234567890",
+      "role": "user",
+      "password": "123456",
+      "confirm": "123456",
+      "entreprise": "non",
+      "auth": true
+    }
+  ]
+}
