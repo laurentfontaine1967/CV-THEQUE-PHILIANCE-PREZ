@@ -2,10 +2,10 @@
   "users": [
     {
       "id": 1,
-      "email": "chaimaetalbi2016@gmail.com",
-      "nom": "Talbi",
-      "prenom": "Chaymae",
-      "telNumber": "0766884256",
+      "email": "chai6@gmail.com",
+      "nom": "Talb",
+      "prenom": "Chay",
+      "telNumber": "07000000",
       "password": "asazazazazaz",
       "confirmPassword": "azazazazazazaazaz",
       "formErrors": {
